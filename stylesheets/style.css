@@ -23,7 +23,7 @@
     .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
 }
 #home{
-    background-image: url("../image/coverV3.jpg");
+    background-image: url("../image/coverV4.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,7 +38,7 @@
     font-size: 32px;
 }
     #home{
-        background-image: url("../image/coverV3.jpg");
+        background-image: url("../image/Webcover.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
