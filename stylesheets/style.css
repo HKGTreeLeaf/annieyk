@@ -29,13 +29,18 @@
     -o-background-size: cover;
     background-size: cover;
 }
+#home_content{
+    margin-top: 150px;
+    font-size: 48px;
+}
+@media only screen and (max-width: 766px){ #home_content{
+    margin-top: 50px;
+    font-size: 32px;
+}}
 html, body {
     height: 100%;
 }
-
 .container-fluid {
-    border: 1px solid #000;
-    overflow-y: auto;
     height: 100%;
 }
 #aboutMe{
