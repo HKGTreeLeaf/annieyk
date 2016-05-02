@@ -22,6 +22,10 @@
     .collapsing ul li a, .in ul li a {color: #555!important;}
     .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
 }
+.navbar-nav a{
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+}
 #home{
     background-image: url("../image/coverV4.jpg");
     -webkit-background-size: cover;
@@ -43,25 +47,51 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }}
+    }
+    #home_title{
+        font-family: 'Amatic SC', cursive;
+        font-size: 38px;
+        font-weight: 700;
+    }
+}
 html, body {
     height: 100%;
+}
+.navbar-brand{
+    font-family: 'Amatic SC', cursive;
+    font-size: 38px;
+    font-weight: 700;
+}
+#home_title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 58px;
+    font-weight: 700;
 }
 .container-fluid {
     height: 100%;
 }
 #aboutMe{
-    background-color: #0f0f0f;
+    background-color: navajowhite;
+}
+.aboutMe_content{
+    padding-top: 40px;
+}
+.aboutMe_content p{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #artWorks{
-    background-color: #0f0f0f;
+    background-color: navajowhite;
 }
 #contact{
     background-color: #0f0f0f;
 }
 #reels{
-    background-color: #0f0f0f;
+    background-color: navajowhite;
 }
 #projects{
     background-color: #0f0f0f;
+}
+.projects_content{
+    padding-top: 40px;
 }
