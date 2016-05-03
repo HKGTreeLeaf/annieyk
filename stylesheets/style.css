@@ -36,6 +36,7 @@
 
 html, body {
     height: 100%;
+    background-color: #0f0f0f;
 }
 .navbar-brand{
     font-family: 'Amatic SC', cursive;
@@ -75,8 +76,16 @@ html, body {
 .projects_content{
     padding-top: 40px;
 }
+.projects_content .video4to3{
+    padding-top: 40px;
+    padding-left: 20%;
+}
+.projects_content .video16to9{
+    padding-top: 40px;
+    padding-left: 25%;
+}
 @media (max-width: 1180px) {
-    .collapsing, .in {background-color: #f7f7f7;}
+    .collapsing, .in {background-color: black;}
     .collapsing ul li a, .in ul li a {color: #555!important;}
     .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
     #home_content{
@@ -122,6 +131,7 @@ html, body {
     .navbar-text {
         float: none;
         margin: 15px 0;
+        font-weight: 700;
     }
     /* since 3.1.0 */
     .navbar-collapse.collapse.in {
@@ -129,5 +139,13 @@ html, body {
     }
     .collapsing {
         overflow: hidden!important;
+    }
+    .projects_content .video4to3{
+        padding-top: 40px;
+        padding-left: 10%;
+    }
+    .projects_content .video16to9{
+        padding-top: 40px;
+        padding-left: 10%;
     }
 }
