@@ -131,15 +131,23 @@ html, body {
 }
 .nav-tabs>li>a{
     font-family: 'Poiret One', cursive;
-    font-size: 15px;
     font-weight: 800;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: gainsboro;
 }
 .tab-pane{
     background-color: gainsboro;
 }
 .tab-pane>div{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+a{
+    color: black;
+    font-size: 18px;
 }
 @media (max-width: 1180px) {
     .collapsing, .in {background-color: black;}
