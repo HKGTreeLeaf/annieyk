@@ -133,6 +133,9 @@ html, body {
     font-family: 'Poiret One', cursive;
     font-weight: 800;
 }
+.tiffanyBlue{
+    color: #92F4CF;
+}
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
     background-color: gainsboro;
 }
