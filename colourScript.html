@@ -15,6 +15,48 @@
     <script src="script/index.js"></script>
 </head>
 <body>
+<div class="colourScriptContent">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#mama">Mama</a></li>
+            <li><a data-toggle="tab" href="#surprise">Surprise</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="mama" class="tab-pane fade in active">
+                <div id="links1">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="image/colourscript/MAMA/colourtest_Annie1.jpg" title=""
+                               data-gallery="#blueimp-gallery-colourScriptMAMA">
+                                <img class="img-responsive" src="image/colourscript/MAMA/colourtest_Annie1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="image/colourscript/MAMA/colourtest_Annie2.jpg" title=""
+                               data-gallery="#blueimp-gallery-colourScriptMAMA">
+                                <img class="img-responsive" src="image/colourscript/MAMA/colourtest_Annie2.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="surprise" class="tab-pane fade">
+                <div id="links2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="image/colourscript/Surprise/cafeoudoor.jpg" title=""
+                               data-gallery="#blueimp-gallery-colourScriptSurprise">
+                                <img class="img-responsive" src="image/colourscript/Surprise/cafeoudoor.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-1"></div>
+</div>
 <nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -46,6 +88,73 @@
         </div>
     </div>
 </nav>
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery-colourScriptMAMA" class="blueimp-gallery" data-use-bootstrap-modal="false">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="blueimp-gallery-colourScriptSurprise" class="blueimp-gallery" data-use-bootstrap-modal="false">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="lib/Gallery-master/js/jquery.blueimp-gallery.min.js"></script>
 <script src="lib/Bootstrap-Image-Gallery-master/js/bootstrap-image-gallery.min.js"></script>
 </body>
