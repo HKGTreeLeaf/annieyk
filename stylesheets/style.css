@@ -86,6 +86,12 @@ html, body {
 .artWorks_content{
     padding-top: 40px;
 }
+.tab-pane{
+}
+.img-responsive{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #storyboard{
     background: navajowhite;
 }
