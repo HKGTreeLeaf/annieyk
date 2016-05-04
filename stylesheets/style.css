@@ -134,6 +134,13 @@ html, body {
     font-size: 15px;
     font-weight: 800;
 }
+.tab-pane{
+    background-color: gainsboro;
+}
+.tab-pane>div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 @media (max-width: 1180px) {
     .collapsing, .in {background-color: black;}
     .collapsing ul li a, .in ul li a {color: #555!important;}
