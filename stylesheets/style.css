@@ -50,6 +50,9 @@ html, body {
     font-weight: 800;
     font-size: 20px;
 }
+.contactUs{
+    margin-top: 50px;
+}
 #home_title{
     font-family: 'Amatic SC', cursive;
     font-size: 80px;
