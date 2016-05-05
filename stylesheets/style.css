@@ -75,6 +75,11 @@ html, body {
     font-size: 40px;
     font-family: 'Josefin Sans', sans-serif;
 }
+.poiretOne{
+    font-family: 'Poiret One', cursive!important;
+    font-size: 100px!important;
+    font-style: italic;
+}
 .reelsContent{
     margin-top: 50px;
 }
