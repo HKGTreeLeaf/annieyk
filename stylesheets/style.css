@@ -83,6 +83,10 @@ html, body {
 .reelsContent{
     margin-top: 50px;
 }
+#wrap{
+    min-height: 100%;
+    margin: 0 auto -60px;
+}
 .emailTitle{
     font-size: 40px!important;
     font-style: normal;!important;
