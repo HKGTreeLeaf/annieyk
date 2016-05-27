@@ -40,6 +40,8 @@ html, body {
     font-weight: 700;
 }
 .aboutMe_title{
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
 }
