@@ -45,7 +45,10 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
 }
-
+.aboutMe_content .img-responsive{
+    padding-bottom: 0;
+    padding-top: 0;
+}
 .josefinSans{
     font-family: 'Josefin Sans', sans-serif;
 }
